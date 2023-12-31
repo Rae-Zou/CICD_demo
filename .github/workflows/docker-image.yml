@@ -7,8 +7,8 @@ on:
     branches: [ "main" ]
 
 env:
-  TEST_TAG: user/app:test
-  LATEST_TAG: user/app:latest
+  TEST_TAG: raezou93/cicd:test
+  LATEST_TAG: raezou93/cicd:latest
 
 jobs:
   build_and_push_to_registry:
